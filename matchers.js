@@ -1,5 +1,8 @@
-function extended_matcher(data, key, valuesArray) {
-    return true;
+function multiply_matcher(data, key, valuesArray) {
+    if(data["factor1"] && data["factor2"] && data["factor1"] * data["factor2"] > 100){
+        return true;
+    }
+    return fasle;
 }
 
-EXTENDED_MATCHER_MAP.set('my_matcher', extended_matcher);
+EXTENDED_MATCHER_MAP.set('multiply_matcher', multiply_matcher);

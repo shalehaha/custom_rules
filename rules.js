@@ -36,6 +36,16 @@ rules = {
                                                             "com.adobe.eventSource.requestContent"
                                                         ]
                                                     }
+                                                },
+                                                {
+                                                    "type": "matcher",
+                                                    "definition": {
+                                                        "key": "custom",
+                                                        "matcher": "multiply_matcher",
+                                                        "values": [
+                                                            
+                                                        ]
+                                                    }
                                                 }
                                             ]
                                         }

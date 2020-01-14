@@ -64,7 +64,14 @@ rules = {
                         "timeout": 0,
                         "templateurl": "https://www.adobe.com"
                     }
-                }
+                },
+                             {
+                             "id": "RC84399d1d37764f61a16ed4c2c66fb3a7",
+                             "type": "function",
+                             "detail": {
+                                "function_name": "print_log"
+                             }
+                             }
             ]
         }
     ]

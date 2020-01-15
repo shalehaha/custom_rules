@@ -1,6 +1,6 @@
 function multiply_matcher(data, key, valuesArray) {
-    if(data["data"] && data["data"]["contextdata"] && data["data"]["contextdata"]["factor1"] && data["data"]["contextdata"]["factor2"]
-       && data["data"]["contextdata"]["factor1"] * data["data"]["contextdata"]["factor2"] > 100){
+    if(data["data.contextdata.factor1"] && data["data.contextdata.factor2"]
+       && data["data.contextdata.factor1"] * data["data.contextdata.factor2"] > 100){
         return true;
     }
     return false;
